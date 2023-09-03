@@ -8,7 +8,7 @@
 #output: adoydE
 
 
-a = 'Edoyoda'
+a = 'Edyoda'
 
 b = ''
 i = len(a) - 1
