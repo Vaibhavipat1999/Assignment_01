@@ -8,14 +8,11 @@
 #output: adoydE
 
 
-a = 'Edoyoda'
+my_string=("Edyoda")
+str=""
 
-b = ''
-i = len(a) - 1
-
-while i >= 0 :
-    b = b + a[i]
-    i -= 1
+for i in my_string:
+    str=i+str
     
-print("The Original = ", a)
-print("The Inverted = ", b)
+print("Orignal string:",my_string)
+print("Reversed string:",str)
